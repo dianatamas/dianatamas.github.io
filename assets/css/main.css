@@ -4086,29 +4086,44 @@ input, select, textarea {
 
 
 	.container{
-	  width: 70%;
+	  width: 90%;
 	  margin: 0 auto;
-	  display: flex;
 		text-align: left;
 	}
+		@media screen and (min-width: 480px) {
+			.container {
+				display: flex;
+				width: 100%;
+			}
+		}
+
 	.item {
 	  width: 50%;
 	}
+		@media screen and (max-width: 480px) {
+			.item {
+				width: 100%;
+			}
+		}
+
 	@keyframes load{
 	  from {
 	    width: 0%
 	  }
 	}
+
 	@-webkit-keyframes load{
 	  from {
 	    width: 0%
 	  }
 	}
+
 	@-moz-keyframes load{
 	  from {
 	    width: 0%
 	  }
 	}
+
 	@-o-keyframes load{
 	  from {
 	    width: 0%
@@ -4123,6 +4138,7 @@ input, select, textarea {
 	  color: #FFF;
 	  font-weight: bold;
 	}
+
 	.bar::before{
 	  content:  attr(data-skill);
 	  background-color: #f3b0ff;

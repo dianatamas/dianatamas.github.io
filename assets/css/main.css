@@ -1,4 +1,3 @@
-@import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
 /*
@@ -2547,10 +2546,10 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
 			font-style: normal;
-			font-weight: normal;
+			font-weight: 400;
 			text-transform: none !important;
+			text-rendering: auto;
 		}
 
 		.icon > .label {
@@ -2601,7 +2600,7 @@ input, select, textarea {
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #9cc8a0;
 		}
 
 		.icon.style4 {

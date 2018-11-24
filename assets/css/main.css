@@ -2549,7 +2549,6 @@ input, select, textarea {
 			font-style: normal;
 			font-weight: 400;
 			text-transform: none !important;
-			text-rendering: auto;
 		}
 
 		.icon > .label {
